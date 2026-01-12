@@ -5,6 +5,7 @@ Para averiguar informações
 O usuário do sistema
 Deseja poder consultar informações dos funcionarios
 
+@cenario_um
 Cenario: Buscar informacoes de funcionario
 Dado que o usuario consulte informacoes de funcionario
 Quando ele realizar a pesquisa 
@@ -21,3 +22,9 @@ Cenario: Alterar informacoes cadastrais
 Dado que o usuario altere uma informacao de funcionario
 Quando ele enviar as novas informacoes
 Entao as informacoes serao alteradas
+
+@cenario_quatro
+Cenario: Deletar cadastro de funcionario
+Dado que o usuario queira deletar um funcionario
+Quando ele enviar a indentificacao unica
+Entao esse funcionario sera deletado do sistema
